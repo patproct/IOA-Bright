@@ -187,3 +187,8 @@ a#homelink:hover { border-bottom-width: 0; }
 #sallee tr:first-child { border-bottom: 1px solid #999; }
 #sallee .driver { text-align: right; }
 #sallee .class { text-align: left; }
+
+/* begin Event Espresso styling */
+#pdf_checkbox { display: block; }
+	#pdf_checkbox label { float: left; padding-right: 0; margin: 4px 10px 4px 0; }
+/* end Event Espresso styling */
