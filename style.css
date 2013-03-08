@@ -11,3 +11,179 @@ License: Proprietary
 
 General comments: This theme remains the property of Patrick John Proctor and the Indiana Outboard Association. Please do not take anything without asking first!
 */
+
+body {
+	font-size: 0.8em;
+	font-family: Verdana, Arial, "MS Trebuchet", sans-serif;
+	color: #101010;
+}
+h1 {
+	color: #D00C1F;
+	font-size: 170%;
+	font-weight: bold;
+	color: #990000;
+	margin: 0;
+	letter-spacing: -1px;
+	text-transform: lowercase;
+	font-style: italic;
+}
+h2 { font-size: 145%; }
+h2 a { color: #C00; }
+h3, h3 a { color: #3e3e3e; text-decoration: underline; margin: 7px 0; }
+a { text-decoration: none; color: #900; }
+a:hover { border-bottom: 1px dotted; }
+b, strong { font-weight: bold; }
+i, em { font-style: italic; }
+small { font-size: 90%; }
+dl { line-height: 125%; }
+dt { font-weight: bold; }
+dd { margin: 0 0 20px 7px; }
+
+/*a.moretag { font-weight: bold; }*/
+
+.clear, .clr { clear: both; }
+.post-object {
+	clear: both;
+	margin: 20px 0;
+	padding: 10px 9px 0 12px;
+}
+.post-object:first-child {
+	margin-top: 0;
+}
+.post-object h1 { margin-top: 15px; font-size: 150%; }
+.post-object h2 { margin-top: 15px; font-size: 140%; }
+.post-object h3 { margin-top: 10px; font-size: 135%; }
+.post-object h4 { margin-top: 10px; font-size: 130%; }
+.post-object h5 { margin-top: 8px; font-size: 125%; }
+.post-object h6 { margin-top: 8px; font-size: 120%; }
+.post-object h2.object-title, h2.archive-title { font-size: 170%; color: #900; margin: 0 0 5px 0 !important; padding: 0 0 5px 8px; border-bottom: 1px solid #999; }
+.post h2.object-title { padding-left: 0; border-bottom: 0px solid #999; font-size: 140%; }
+.post-object p, .widget_text p, .post-object ol, .post-object ul { line-height: 125%; margin: 10px 0; }
+.post-object ol, .post-object ul { margin: 0 35px; }
+.post-object ol { list-style: decimal outside; }
+.post-object ol ol { list-style-type: lower-alpha; }
+.post-object ol ol ol { list-style-type: lower-latin; }
+.post-object ul { list-style: circle outside; }
+.post-object ul ul { list-style: disc outside; }
+.post-object ul ul ul { list-style: square outside; }
+.post-object th, .post-object td { padding: 2px 9px; }
+
+.post-object.special { position: relative; padding: 10px 20px 10px 20px; }
+div.final-lap { background-color: #D2D2D2; }
+div.propwash { /*background-color: #FFF;*/ }
+p.tagTitle { color: #6C6C6C; font-variant: small-caps; font-style: italic; font-weight: bold; position: absolute; top: 10px; right: 15px; text-align: right; line-height: 100%; margin: 0; letter-spacing: 1px; }
+
+#centerCol .post { border-top: 1px solid #999; }
+#centerCol .post:first-child { border-top-width: 0; }
+.postmeta { border: 1px solid #999; padding: 4px 9px; font-size: 0.8em;  }
+.postmeta p { margin: 0; }
+
+.edit-post-link { font-size: 0.8em; text-align: right; margin-top: 10px; }
+
+#globalContainer { width: 100%; position: absolute; /*background: #FFFFFF url(images/bg_pg2-web30.jpg) no-repeat fixed top left;*/ }
+#container {
+	width: 960px;
+	margin: 0px auto;
+	position: relative;
+	background: #FFFFFF url(images/bg_pg2-web30.jpg) no-repeat scroll top center;
+}
+/*#header, #footer, #content > div { background-color: #FFFFFF; }*/
+#header {
+	width: 100%;
+	height: 90px;
+	padding: 20px 0;
+	background: transparent url(images/ioa-banner-2013-2.png) no-repeat scroll 0 0;
+}
+a#homelink {
+	height: 100%;
+	width: 670px;
+	display: block;
+}
+a#homelink:hover { border-bottom-width: 0; }
+#header h1 { display: none; }
+#content {
+	width: 100%;
+	margin: 0;
+}
+#footer {
+	width: 100%;
+	margin-top: 30px;
+	clear: both;
+	text-align: center;
+}
+#footer ul li {
+	display: inline;
+}
+#footer div#quicklinks { margin: 6px 0; }
+#footer div#quicklinks ul li { padding: 0 3px 0 8px; border-left: 1px dotted #888888; }
+#footer div#quicklinks ul li:first-child { border-left-width: 0; }
+#leftCol {
+	float: left;
+	width: 200px;
+	padding-bottom: 25px;
+}
+#centerCol {
+	float: left;
+	width: 480px;
+}
+#rightCol {
+	float: right;
+	width: 250px;
+	padding-bottom: 25px;
+}
+#leftCol > * { margin: 0 15px 0 0; }
+#centerCol { padding: 0 15px; }
+#rightCol > * { margin: 0 0 0 15px; }
+#subtitle {
+	font-size: 105%;
+	font-style: italic;
+	color: #666;
+	font-family: Georgia, Verdana, Arial, "MS Trebuchet", sans-serif;
+	margin: 5px 0;
+	display: none;
+}
+#leftCol ul li {
+	font-size: 1em;
+	line-height: 27px;
+	margin: 7px 0;
+}
+#leftCol ul li a { color: #ED0000; display: block; padding: 0 15px; overflow: hidden; text-transform: lowercase; }
+#leftCol ul li a:hover, #leftCol ul.menu > li.current-menu-item > a, #leftCol ul.menu > li.current-menu-ancestor > a { color: #F6FA00; border-bottom: 0; }
+#leftCol > div > ul.menu > li ul { display: none; font-size: 1em; margin-left: 10px; }
+#leftCol > div > ul.menu > li > a { background: transparent url(images/nav_item_bg.png) repeat-y scroll top left; font-weight: bold; }
+#leftCol > div > ul.menu > li li { line-height: 14px; margin: 13px 0; }
+	#leftCol > div > ul.menu > li > ul li.current_page_item a { color: #333333; text-decoration: underline; }
+#leftCol > div > ul.menu > li li > a { background-image: none; }
+#leftCol > div > ul.menu > li li > a:hover { color: #ED0000; text-decoration: underline; }
+.current_page_ancestor > ul, .current_page_item > ul { display: block !important; }
+
+#rightCol .sidebar { border-top: 1px solid #999; }
+#rightCol .sidebar:first-child { border-top-width: 0; }
+#rightCol li.widget { margin-bottom: 20px; border-top: 1px solid #999; padding: 0 10px; }
+#rightCol li.widget:first-child { border-top-width: 0; }
+#rightCol li.widget ul { list-style: disc inside; }
+#rightCol h2.widgettitle { margin: 5px 0 5px 0; text-align: center; color: #494949; font-weight: bold; font-size: 110%; }
+
+#pagination { text-align: center; background-color: #e3e3e3; padding: 8px 0; }
+
+#copyright { font-size: 85%; line-height: 12px; }
+
+.stripe { position: absolute; top: 0; bottom: 0; width: 25px; display: none; }
+#redStripe { left: 35px; background-color: #990000; }
+#whiteStripe {; left: 60px; background-color: #FFFFFF; }
+#blackStripe {; left: 85px; background-color: #000000; }
+
+/* begin Google Custom Search styling */
+.cse .gsc-search-button input.gsc-search-button-v2, input.gsc-search-button-v2 { padding: 6px 8px !important; }
+.gsc-control-cse, .gsc-webResult.gsc-result, .gsc-results .gsc-imageResult { background-color: transparent !important; }
+.gsc-control-cse { border: 0 !important; }
+.gsc-results .gsc-imageResult, .gsc-webResult.gsc-result { border-left: 0 !important; border-right: 0 !important; }
+/* end Google Custom Search styling */
+
+#sallee { width: 300px; }
+#sallee .input { float: right; margin: 5px 10px 10px 0px; }
+#sallee th { text-align: center; border: 1px solid #999; }
+#sallee tr { text-align: center; }
+#sallee tr:first-child { border-bottom: 1px solid #999; }
+#sallee .driver { text-align: right; }
+#sallee .class { text-align: left; }
