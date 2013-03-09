@@ -20,7 +20,6 @@ $(document).ready(function(){
 	// 		if ($(this).hasClass('propwash')) $(this).children('p.tagTitle').text("Propwash");
 	// 	}
 	// });
-	$('p.event_form_submit').before('<div id="pdf_checkbox"><input name="yes_pdf" type="checkbox" id="yes_pdf" value="yes" /><label for="yes_pdf>">Download entryblank as PDF?</label><div class="clr"></div></div>');
 });
 
 // Begin Google Custom Search
