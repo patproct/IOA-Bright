@@ -41,6 +41,8 @@ dd { margin: 0 0 20px 7px; }
 sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
 sup { top: -0.5em; }
 sub { bottom: -0.25em; }
+blockquote { background-color: #D3D3D3; color: #4E4E4E; font-size: 95%; font-family: Georgia, Verdana, "MS Trebuchet", sans-serif; display: block; padding: 4px 20px; }
+	blockquote p { line-height: 140% !important; }
 
 /*a.moretag { font-weight: bold; }*/
 
