@@ -63,7 +63,7 @@ blockquote { background-color: #D3D3D3; color: #4E4E4E; font-size: 95%; font-fam
 .post-object h6 { margin-top: 8px; font-size: 120%; }
 .post-object h2.object-title, h2.archive-title { font-size: 170%; color: #900; margin: 0 0 5px 0 !important; padding: 0 0 5px 8px; border-bottom: 1px solid #999; }
 .post h2.object-title { padding-left: 0; border-bottom: 0px solid #999; font-size: 140%; }
-.post-object p, .widget_text p, .post-object ol, .post-object ul { line-height: 125%; margin: 10px 0; }
+.post-object p, .widget_text p, .post-object ol, .post-object ul { line-height: 125%; margin: 10px 0; text-align: justify; }
 .post-object ol, .post-object ul { margin: 0 35px; }
 .post-object ol { list-style: decimal outside; }
 .post-object ol ol { list-style-type: lower-alpha; }
