@@ -1,4 +1,4 @@
-#header, #quicklinks, #leftCol, #rightCol { display: none; }
+#header, #quicklinks, #leftCol, #rightCol, .postmeta, .edit-post-link { display: none; }
 #container { background-image: none; }
 #centerCol, #container { width: 100%; }
 .post-object { padding: 0; }
