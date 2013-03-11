@@ -80,7 +80,7 @@ p.tagTitle { color: #6C6C6C; font-variant: small-caps; font-style: italic; font-
 
 #centerCol .post { border-top: 1px solid #999; }
 #centerCol .post:first-child { border-top-width: 0; }
-.postmeta { border: 1px solid #999; padding: 4px 9px; font-size: 0.8em;  }
+.postmeta { border: 1px solid #999; padding: 4px 9px; font-size: 0.8em; margin-top: 12px; }
 .postmeta p { margin: 0; }
 
 .edit-post-link { font-size: 0.8em; text-align: right; margin-top: 10px; }
