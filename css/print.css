@@ -2,6 +2,7 @@
 #container { background-image: none; }
 #centerCol, #container { width: 100%; }
 .post-object { padding: 0; }
+blockquote { background-color: transparent; border-left: 3px solid #D3D3D3; }
 
 a:link, a:visited {background: transparent; color:#333; text-decoration:none;}
 a:link[href^="http://"]:after, a[href^="http://"]:visited:after {content: " (" attr(href) ") "; font-size: 11px;}
