@@ -20,6 +20,8 @@ $(document).ready(function(){
 	// 		if ($(this).hasClass('propwash')) $(this).children('p.tagTitle').text("Propwash");
 	// 	}
 	// });
+	$('.post-object a').has('img').addClass('imgLink');
+	$('.post-object.post a[rel="colorbox"]').has('img').colorbox({rel:'colorobox', transition:'elastic', innerWidth:'75%', innerHeight:'75%'});
 });
 
 // Begin Google Custom Search
