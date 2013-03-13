@@ -9,10 +9,12 @@
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/reset.css" type="text/css" />
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/wpcore.css" type="text/css" />
+		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/colorbox.css" type="text/css" media="screen" title="no title" charset="utf-8">
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/print.css" type="text/css" media="print" />
 		<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico" type="text/css" />
 		<script src="<?php bloginfo('template_directory'); ?>/js/jquery.js" type="text/javascript"></script>
 		<script src="<?php bloginfo('template_directory'); ?>/js/hoverintent.js" type="text/javascript"></script>
+		<script src="<?php bloginfo('template_directory'); ?>/js/jquery.colorbox-min.js" type="text/javascript"></script>
 		<script src="<?php bloginfo('template_directory'); ?>/js/custom.js" type="text/javascript"></script>
 		
 		<?php wp_head(); ?>
