@@ -170,7 +170,9 @@ a#homelink:hover { border-bottom-width: 0; }
 #rightCol li.widget:first-child { border-top-width: 0; }
 #rightCol li.widget ul { list-style: disc inside; }
 #rightCol h2.widgettitle { margin: 5px 0 5px 0; text-align: center; color: #494949; font-weight: bold; font-size: 110%; }
-#rightCol li.widget li { margin: 3px 0; }
+	#rightCol h2.widgettitle > a { color: #494949; }
+#rightCol li.widget li { margin: 3px 0; line-height: 25px; }
+	#rightCol li.widget li a { color: #640000; }
 
 #pagination { text-align: center; background-color: #e3e3e3; padding: 8px 0; }
 
