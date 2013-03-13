@@ -6,6 +6,7 @@
 		<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 		<meta content="Indiana Outboard Association, Modified Racing Hydroplanes, Modified Racing Runabouts, Stock Outboard Racing, DIY, racing, midwest, Indiana, Ohio, Michigan, Illinois, Oklahoma, Kentucky, APBA, American, United States, USA" name="keywords" />
 		
+		<link rel="alternate" href="<?php bloginfo('rss2_url'); ?>" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> RSS" />
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/reset.css" type="text/css" />
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/wpcore.css" type="text/css" />
