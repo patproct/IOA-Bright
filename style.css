@@ -4,12 +4,12 @@ Theme URI: https://github.com/patproct/IOA-Bright
 Description: This theme was developed for the Indiana Outboard Association's website.
 Author: Patrick Proctor
 Author URI: http://patrickjproctor.com/
-Version: 0.1.0
-Tages white, bright, three-columns, sticky-post
+Version: 0.2.0
+Tags: white, bright, three-columns, sticky-post, event-espresso
 
 License: Proprietary
 
-General comments: This theme remains the property of Patrick John Proctor and the Indiana Outboard Association. Please do not take anything without asking first!
+General comments: This theme supports menus and the Event Espresso plugin. This theme remains the property of Patrick John Proctor and the Indiana Outboard Association. Please do not take anything without asking first!
 */
 
 body {
@@ -192,3 +192,8 @@ a#homelink:hover { border-bottom-width: 0; }
 #sallee tr:first-child { border-bottom: 1px solid #999; }
 #sallee .driver { text-align: right; }
 #sallee .class { text-align: left; }
+
+/* begin Event Espresso styling */
+#pdf_checkbox { display: block; }
+	#pdf_checkbox label { float: left; padding-right: 0; margin: 4px 10px 4px 0; }
+/* end Event Espresso styling */
