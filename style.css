@@ -178,7 +178,8 @@ a#homelink:hover { border-bottom-width: 0; }
 #rightCol li.widget li { margin: 5px 0; line-height: 120%; }
 	#rightCol li.widget li a { color: #640000; }
 
-#pagination { text-align: center; background-color: #e3e3e3; padding: 8px 0; }
+#pagination { text-align: center; /*background-color: #e3e3e3;*/ padding: 8px 0; }
+#pagination a.page-numbers, #pagination span.current { border: #c3c3c3 solid 1px; padding: 0 7px; }
 
 #copyright { font-size: 85%; line-height: 12px; }
 
