@@ -26,7 +26,8 @@ $(document).ready(function(){
 
 // Begin Google Custom Search
 (function() {
-	var cx = '018164519255312619522:pwquglnin2u';
+	// var cx = '018164519255312619522:pwquglnin2u';
+	var cx = '018164519255312619522:93k3b8uzjom';
 	var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
 	gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//www.google.com/cse/cse.js?cx=' + cx;
 	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
