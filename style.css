@@ -78,7 +78,7 @@ blockquote { background-color: #D3D3D3; color: #4E4E4E; font-size: 95%; font-fam
 .post-object.special { position: relative; padding: 10px 20px 10px 20px; }
 div.final-lap { background-color: #D2D2D2; }
 div.propwash { /*background-color: #FFF;*/ }
-p.tagTitle { color: #6C6C6C; font-variant: small-caps; font-style: italic; font-weight: bold; position: absolute; top: 10px; right: 15px; text-align: right; line-height: 100%; margin: 0; letter-spacing: 1px; }
+p.tagTitle { font-family: "Arvo", Verdana, sans-serif; color: #6C6C6C; font-variant: small-caps; font-style: italic; font-weight: 700; position: absolute; top: 10px; right: 15px; text-align: right; line-height: 100%; margin: 0; letter-spacing: 1px; }
 
 .imgLink:hover { border:none; }
 
