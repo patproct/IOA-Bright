@@ -3,6 +3,13 @@ function findPostID(str) {
 	matches = str.match(/\d+/);
 	return (matches) ? parseInt(matches[0], 10) : 0;
 }
+function sendDataToPDF() {
+	var generatorURL = "http://patrickjproctor.com/entryblank/generate.php";
+	var generatorArgs = "?driver_age=25&driver_club=IOA&apba_rumber=715&boat_number=42H";
+	generatorURL = generatorURL + generatorArgs;
+	
+	window.open(generatorURL,'_blank','height=600,width=800,location=0,titlebar=yes,toolbar=no');
+}
 $(document).ready(function(){
 	$('#leftCol ul.menu > li:not(.current_page_ancestor,.current_page_item)').hoverIntent({
 		over: function(){ $(this).children('ul').slideDown(); },

@@ -7,6 +7,7 @@
 	<h2 class="archive-title"><?php archives_title(); ?></h2>
 <?php endif; ?>
 <div>
+<p><a href="javascript:sendDataToPDF();">&amp;</a></p>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	<?php $post_type = $post->post_type; $tags = get_the_tags(); ?>
 	<div id="<?php echo $post_type; ?>-<?php the_ID(); ?>" class="<?php if (function_exists('loop_post_classes')) echo loop_post_classes($post_type, $tags); ?>">
