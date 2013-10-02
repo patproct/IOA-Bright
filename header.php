@@ -13,6 +13,15 @@
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/colorbox.css" type="text/css" media="screen" />
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/print.css" type="text/css" media="print" />
 		<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico" type="text/css" />
+		
+		<script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+		<script>
+		  WebFont.load({
+		    google: {
+		      // families: ['Open Sans', 'Arvo']
+		    }
+		  });
+		</script>
 		<script src="<?php bloginfo('template_directory'); ?>/js/jquery.js" type="text/javascript"></script>
 		<script src="<?php bloginfo('template_directory'); ?>/js/hoverintent.js" type="text/javascript"></script>
 		<script src="<?php bloginfo('template_directory'); ?>/js/jquery.colorbox-min.js" type="text/javascript"></script>
