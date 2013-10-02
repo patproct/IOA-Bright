@@ -4,7 +4,7 @@ Theme URI: https://github.com/patproct/IOA-Bright
 Description: This theme was developed for the Indiana Outboard Association's website.
 Author: Patrick Proctor
 Author URI: http://patrickjproctor.com/
-Version: 0.2.1 (Beta)
+Version: 0.3.0 (Beta)
 Tags: white, bright, three-columns, sticky-post, event-espresso
 
 License: Proprietary
@@ -12,9 +12,11 @@ License: Proprietary
 General comments: This theme supports menus and the Event Espresso plugin. It is still in Beta. This theme remains the property of Patrick John Proctor and the Indiana Outboard Association. Please do not take anything without asking first!
 */
 
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic|Open+Sans:300italic,700italic,400,300,700);
+
 body {
-	font-size: 0.8em;
-	font-family: Verdana, Arial, "MS Trebuchet", sans-serif;
+	font-size: 0.85em;
+	font-family: "Open Sans", Verdana, Arial, "MS Trebuchet", sans-serif;
 	color: #101010;
 }
 h1 {
@@ -62,8 +64,8 @@ blockquote { background-color: #D3D3D3; color: #4E4E4E; font-size: 95%; font-fam
 .post-object h5 { margin-top: 8px; font-size: 125%; }
 .post-object h6 { margin-top: 8px; font-size: 120%; }
 .post-object h2.object-title, h2.archive-title { font-size: 170%; color: #900; margin: 0 0 5px 0 !important; padding: 0 0 5px 8px; border-bottom: 1px solid #999; }
-.post h2.object-title { padding-left: 0; border-bottom: 0px solid #999; font-size: 140%; }
-.post-object p, .widget_text p, .post-object ol, .post-object ul { line-height: 125%; margin: 10px 0; text-align: justify; }
+.post h2.object-title { font-family: "Open Sans", Verdana, sans-serif; font-weight: 300; padding-left: 0; border-bottom: 0px solid #999; font-size: 170%; }
+.post-object p, .widget_text p, .post-object ol, .post-object ul { line-height: 125%; margin: 10px 0; text-align: justify; font-family: "Open Sans", Verdana, "MS Trebuchet", sans-serif; }
 .post-object ol, .post-object ul { margin: 0 35px; }
 .post-object ol { list-style: decimal outside; }
 .post-object ol ol { list-style-type: lower-alpha; }
@@ -153,11 +155,13 @@ a#homelink:hover { border-bottom-width: 0; }
 	font-size: 1em;
 	line-height: 27px;
 	margin: 7px 0;
+	font-family: "Open Sans", Verdana, sans-serif;
+	font-weight: 300;
 }
 #leftCol ul li a { color: #ED0000; display: block; padding: 0 15px; overflow: hidden; text-transform: lowercase; }
 #leftCol ul li a:hover, #leftCol ul.menu > li.current-menu-item > a, #leftCol ul.menu > li.current-menu-ancestor > a { color: #F6FA00; border-bottom: 0; }
 #leftCol > div > ul.menu > li ul { display: none; font-size: 1em; margin-left: 10px; }
-#leftCol > div > ul.menu > li > a { background: transparent url(images/nav_item_bg.png) repeat-y scroll top left; font-weight: bold; }
+#leftCol > div > ul.menu > li > a { background: transparent url(images/nav_item_bg.png) repeat-y scroll top left; }
 #leftCol > div > ul.menu > li li { line-height: 14px; margin: 13px 0; }
 	#leftCol > div > ul.menu > li > ul li.current_page_item a { color: #333333; text-decoration: underline; }
 #leftCol > div > ul.menu > li li > a { background-image: none; }
@@ -169,7 +173,7 @@ a#homelink:hover { border-bottom-width: 0; }
 #rightCol li.widget { margin-bottom: 20px; border-top: 1px solid #999; padding: 0 10px; }
 #rightCol li.widget:first-child { border-top-width: 0; }
 #rightCol li.widget ul { list-style: disc inside; }
-#rightCol h2.widgettitle { margin: 5px 0 5px 0; text-align: center; color: #494949; font-weight: bold; font-size: 110%; }
+#rightCol h2.widgettitle { font-family: "Arvo", Verdana, sans-serif; margin: 5px 0 5px 0; text-align: center; color: #494949; font-weight: normal; font-size: 110%; }
 	#rightCol h2.widgettitle > a { color: #494949; }
 #rightCol li.widget li { margin: 5px 0; line-height: 120%; }
 	#rightCol li.widget li a { color: #640000; }
