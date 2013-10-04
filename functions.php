@@ -99,7 +99,7 @@ function fn_googleMaps($atts, $content = null) {
 	
 	return ($src) ? '<iframe width="'.$width.'" height="'.$height.'" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="'.$src.'&amp;output=embed" class="googlemap"></iframe><small class="googlemaplink"><div class="clr"></div><a href="'. $src .'" target="_blank" title="View a larger version of this map">View larger map</a></small>' : false;
 }
-add_shortcode("googlemap", "fn_googleMaps");
+// add_shortcode("googlemap", "fn_googleMaps");
 
 // Flickr Shortcode
 function fn_flickr($atts, $content = null) {
