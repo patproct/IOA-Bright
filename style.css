@@ -171,7 +171,7 @@ a#homelink:hover { border-bottom-width: 0; }
 #rightCol li.widget { margin-bottom: 20px; border-top: 1px solid #999; padding: 0 10px; }
 #rightCol li.widget:first-child { border-top-width: 0; }
 #rightCol li.widget ul { list-style: disc inside; }
-#rightCol h2.widgettitle { font-family: "Arvo", Verdana, sans-serif; margin: 5px 0 5px 0; text-align: center; color: #494949; font-weight: normal; font-size: 110%; }
+#rightCol h2.widgettitle { margin: 5px 0 5px 0; text-align: center; color: #494949; font-weight: normal; font-size: 110%; }
 	#rightCol h2.widgettitle > a { color: #494949; }
 #rightCol li.widget li { margin: 5px 0; line-height: 120%; }
 	#rightCol li.widget li a { color: #640000; }
