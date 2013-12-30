@@ -6,6 +6,7 @@ body { font-family: Verdana, Arial, "MS Trebuchet", sans-serif !important; }
 .post-object { padding: 0; }
 blockquote { background-color: transparent; border-left: 3px solid #D3D3D3; }
 
-a:link, a:visited {background: transparent; color:#333; text-decoration:none;}
-a:link[href^="http://"]:after, a[href^="http://"]:visited:after {content: " (" attr(href) ") "; font-size: 11px;}
-a[href^="http://"] {color:#000;}
+.post-object a:link, .post-object a:visited {background: transparent; color:#333; text-decoration:none;}
+.post-object a:link[href^="http://"]:after, .post-object a[href^="http://"]:visited:after {content: " (" attr(href) ") "; font-size: 11px;}
+.post-object a[href^="http://"] {color:#000;}
+.post-object a.imgLink:after { content: none !important; }
