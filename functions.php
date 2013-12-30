@@ -88,6 +88,25 @@ function displayYear() { // This function automatically moves the year displayed
 	return $display_year;
 }
 
+// Begin settings
+/*
+function gs_settings_callback() {
+	echo "hello";
+}
+function my_custom_submenu_page_callback() {
+	echo '<div class="wrap"><div id="icon-tools" class="icon32"></div>';
+			echo '<h2>My Custom Submenu Page</h2>';
+			echo '<p>Hello.</p>';
+			add_settings_field( 'gsc_settings-id', 'Google Custom Search', 'gs_settings_callback', 'general', 'gs_settings-id', array( 'label_for' => 'gsc_settings-id' ));
+			add_settings_section( 'gs_settings-id', 'Google Services', 'gs_settings_callback', 'general' );
+	echo '</div>';
+}
+function google_settings_menu() {
+	add_submenu_page( 'options-general.php', 'Google Services', 'Google Services', 'manage_options', 'google-submenu-page', 'my_custom_submenu_page_callback' );
+}
+add_action('admin_menu','google_settings_menu'); */
+// End settings
+
 // Begin widgets
 // Google Maps Shortcode
 function fn_googleMaps($atts, $content = null) {
