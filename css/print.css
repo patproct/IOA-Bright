@@ -1,3 +1,5 @@
+body { font-family: Verdana, Arial, "MS Trebuchet", sans-serif !important; }
+
 #header, #quicklinks, #leftCol, #rightCol, .postmeta, .edit-post-link { display: none; }
 #container { background-image: none; }
 #centerCol, #container { width: 100%; }
