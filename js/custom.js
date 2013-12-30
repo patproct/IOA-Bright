@@ -21,7 +21,16 @@ $(document).ready(function(){
 	// 	}
 	// });
 	$('.post-object a').has('img').addClass('imgLink');
-	$('.post-object.post a[rel="colorbox"]').has('img').colorbox({rel:'colorobox', transition:'elastic', innerWidth:'75%', innerHeight:'75%'});
+	$('.post-object.post a.imgLink').has('img').colorbox({
+		rel:'colorobox',
+		transition:'elastic',
+		maxWidth:'75%',
+		maxHeight:'75%',
+		title: function () {
+			var imgTitle = $(this).children('img').attr('alt');
+			return imgTitle;
+		}
+	});
 });
 
 // Begin Google Custom Search
