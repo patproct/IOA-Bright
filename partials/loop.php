@@ -6,6 +6,15 @@
 <?php if (is_archive()) : ?>
 	<h2 class="archive-title"><?php archives_title(); ?></h2>
 <?php endif; ?>
+<?php if (is_author()) : ?>
+	<div>
+		<?php $curauth = (isset($_GET['author_name'])) ? get_user_by('slug', $author_name) : get_userdata(intval($author)); ?>
+		<p id="author-bio"><?php echo $curauth->user_description; ?></p>
+	</div>
+<?php endif; ?>
+<?php if (is_search()): ?>
+	<h2 class="archive-title">Search results for &quot;<?php echo $_GET['s']; ?>&quot;</h2>
+<?php endif ?>
 <div>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	<?php $post_type = $post->post_type; $tags = get_the_tags(); ?>
@@ -17,7 +26,7 @@
 				<?php the_title(); ?>
 			<?php endif ?>
 		</h2>
-		<?php (is_archive()) ? the_excerpt() : the_content(); ?>
+		<?php (is_archive() || is_search()) ? the_excerpt() : the_content(); ?>
 		<?php if (is_single()): ?>
 			<div class="postmeta clr">
 				<?php
