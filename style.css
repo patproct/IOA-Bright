@@ -12,9 +12,11 @@ License: Proprietary
 General comments: This theme supports menus and the Event Espresso plugin. It is still in Beta. This theme remains the property of Patrick John Proctor and the Indiana Outboard Association. Please do not take anything without asking first!
 */
 
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic|Open+Sans:300italic,700italic,400,300,700);
+
 body {
 	font-size: 0.8em;
-	font-family: Verdana, Arial, "MS Trebuchet", sans-serif;
+	font-family: "Open Sans", Verdana, Arial, "MS Trebuchet", sans-serif;
 	color: #101010;
 }
 h1 {
