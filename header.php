@@ -7,6 +7,7 @@
 		<meta content="Indiana Outboard Association, Modified Racing Hydroplanes, Modified Racing Runabouts, Stock Outboard Racing, DIY, racing, midwest, Indiana, Ohio, Michigan, Illinois, Oklahoma, Kentucky, APBA, American, United States, USA" name="keywords" />
 		
 		<link rel="alternate" href="<?php bloginfo('rss2_url'); ?>" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> RSS" />
+		<link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic|Open+Sans:300italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/reset.css" type="text/css" />
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/wpcore.css" type="text/css" />
@@ -14,13 +15,13 @@
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/print.css" type="text/css" media="print" />
 		<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico" type="text/css" />
 		
-		<script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+		<!-- <script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>  -->
 		<script>
-		  WebFont.load({
-		    google: {
+		 // WebFont.load({
+		 //   google: {
 		      // families: ['Open Sans', 'Arvo']
-		    }
-		  });
+		 //   }
+		 // });
 		</script>
 		<script src="<?php bloginfo('template_directory'); ?>/js/jquery.js" type="text/javascript"></script>
 		<script src="<?php bloginfo('template_directory'); ?>/js/hoverintent.js" type="text/javascript"></script>
