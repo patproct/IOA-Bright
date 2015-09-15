@@ -135,7 +135,7 @@ function fn_flickr($atts, $content = null) {
 add_shortcode("ioa-flickr", "fn_flickr");
 
 function googleresultfunction( $atts, $content = null ) {
-	echo '<div class="searchbox"><gcse:searchbox-only></gcse:searchbox-only></div><gcse:searchresults-only linkTarget="_self"></gcse:searchresults-only>';
+	echo '<div class="searchbox"><gcse:searchbox></gcse:searchbox></div><gcse:searchresults linkTarget="_self"></gcse:searchresults>';
 }
 add_shortcode('googleresults', 'googleresultfunction');
 // End widgets
