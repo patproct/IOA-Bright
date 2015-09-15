@@ -12,6 +12,8 @@ $(document).ready(function(){
 	$('#quicklinks a, .edit-post-link a').attr('target', '_blank');
 	$('div.final-lap').addClass('special').append('<p class="tagTitle">Final lap</p>');
 	$('div.propwash').addClass('special').append('<p class="tagTitle">Propwash</p>');
+	$('div.propwash.final-lap p.tagTitle').remove();
+	$('div.propwash.final-lap').append('<p class="tagTitle">Propwash<br />Final lap</p>');
 	// $('div.special').each(function(){
 	// 	$(this).append('<p class="tagTitle"></p>');
 	// 	if ($(this).hasClass('final-lap')) {
