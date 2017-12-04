@@ -164,7 +164,7 @@ a#homelink:hover { border-bottom-width: 0; }
 #leftCol > div > ul.menu > li ul { display: none; font-size: 1em; margin-left: 10px; }
 #leftCol > div > ul.menu > li > a { background: transparent url(images/nav_item_bg.png) repeat-y scroll top left; overflow: hidden; }
 #leftCol > div > ul.menu > li li { line-height: 107%; margin: 13px 0; }
-	#leftCol > div > ul.menu > li > ul li.current_page_item a { color: #333333; text-decoration: underline; }
+	#leftCol > div > ul.menu > li > ul li.current_page_item a { color: #333333; }
 #leftCol > div > ul.menu > li li > a { background-image: none; }
 #leftCol > div > ul.menu > li li > a:hover { color: #ED0000; text-decoration: underline; }
 .current_page_ancestor > ul, .current_page_item > ul { display: block !important; }
