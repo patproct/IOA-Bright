@@ -1,6 +1,6 @@
-IOA-Bright
-==========
+# IOA-Bright
+Written by [Patrick Proctor](https://github.com/patproct/)
 
-This is a new theme for the Indiana Outboard Association website. We may or may not use it.
+This is a new WordPress theme for the Indiana Outboard Association website.
 
-This theme remains the property of the [Indiana Outboard Association](http://indianaoutboard.org/ "We race boats! Indiana Outboard Association"). Please do not take anything without asking first!
+It makes use of some assets from the original IOA website in order to create a clean, classic look that is modern, up-to-date, and functionally integrated with WordPress.
